@@ -1,0 +1,32 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+config/db.php
+config/local.php
+config/secrets.php
+
+# Local database exports and backups (review before committing)
+*.sql
+*.sql.gz
+*.dump
+*.bak
+*.backup
+
+# Local logs and temporary files
+*.log
+tmp/
+temp/
+.cache/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Dependencies/build artifacts if added later
+vendor/
+node_modules/
+dist/
+build/
